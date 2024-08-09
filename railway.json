@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "bot.py",
+      "use": "@railway/python"
+    }
+  ],
+  "env": {
+    "DISCORD_TOKEN": {
+      "description": "Your Discord bot token",
+      "required": true
+    }
+  }
+}
